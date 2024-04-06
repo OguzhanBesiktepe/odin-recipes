@@ -1,1 +1,2 @@
-A basic Website HomePage with Links showing pictures, ingredients, directions to cook turkish cuisines. Completed using HTML in Visual Studio Code. 
+A Website HomePage containing links, showing pictures, listing ingredients/directions to cook amazing turkish cuisines! 
+Completed using HTML in Visual Studio Code. 
