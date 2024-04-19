@@ -1,0 +1,57 @@
+.Main-Title {
+    font-size: 45pt;
+    color: rgb(163, 34, 34);
+    background-color: rgb(231, 134, 8);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Sub-Headings {
+    font-size: 50pt;
+    color: rgb(163, 34, 34);
+    background-color: rgb(231, 134, 8);
+
+}
+
+#CodedBy {
+    font-size: 20;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    text-align: start;
+
+}
+
+.image-container{
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+img{
+    float: initial;
+    width:  450px;
+    height: 450px;
+    object-fit: cover;
+    border: 10px solid rgb(163, 34, 34);
+    text-align: center;
+
+}
+
+body {
+    background-color: burlywood;
+}
+
+.Normal-Text {
+    font-size: 18pt;
+    color: rgb(163, 34, 34);
+}
+
+.Ingredients-Needed {
+    font-size: 18pt;
+    color: rgb(163, 34, 34);
+}
+
+Original-Source{
+    float: center;
+    text-align: center;
+}
