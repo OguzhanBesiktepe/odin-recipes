@@ -1,12 +1,23 @@
+/* Fonts Used from Online Listed Below */
+
+/* Classes Listed Here */
+
 .Main-Title {
     font-size: 45pt;
     color: rgb(163, 34, 34);
     background-color: rgb(231, 134, 8);
     text-align: center;
     font-weight: bolder;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 .Sub-Headings {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 50pt;
     color: rgb(163, 34, 34);
     background-color: rgb(231, 134, 8);
@@ -14,10 +25,14 @@
 }
 
 #CodedBy {
-    font-size: 20;
+    font-size: 30pt;
     color: rgb(0, 0, 0);
     background-color: yellow;
-    text-align: start;
+    text-align: center;
+    text-decoration: (1,0,1)
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -44,14 +59,37 @@ body {
 .Normal-Text {
     font-size: 18pt;
     color: rgb(163, 34, 34);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Ingredients-Needed {
     font-size: 18pt;
     color: rgb(163, 34, 34);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-Original-Source{
-    float: center;
+
+/* Not Finished Buttons */
+
+.Buttons {
+        background-color: rgb(163, 34, 34)
+        border: none;
+        color: rgb(231, 134, 8);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: (1,0,1)
+        display: inline-block;
+        font-size: 16px;
+}
+
+
+/* ID's Listed Here: */
+.image-container{
+    flex: 1;
     text-align: center;
+    margin: 10px;
 }
