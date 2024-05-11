@@ -2,10 +2,11 @@
 
 /* Universal class listed below W Box Method Use (Learning Organizing Information) */
 
-
 body {
     background-color: burlywood;
 }
+
+/* Header */
 
 .Main-Title {
     font-size: 45pt;
@@ -21,6 +22,9 @@ body {
     border-color: rgb(163, 34, 34); 
 }
 
+
+/* Sub-Headers */
+
 .Sub-Headings {
     font-family: "Roboto", sans-serif;
     font-weight: 250;
@@ -33,7 +37,7 @@ body {
 /* General Image Settings Listed Below */
 
 
-img{
+.img{
     box-sizing: border-box;
     margin: 5px;
     margin-right: 16px;
@@ -44,9 +48,9 @@ img{
     border: 10px solid rgb(163, 34, 34);
 }
 
-#Set-Margins {
-    margin-left: 100px;
-}
+
+
+/* Small Images on the Home Webpage */
 
 .small-images {
     box-sizing: border-box;
@@ -58,6 +62,17 @@ img{
     object-fit: cover;
     border: 5px solid rgb(163, 34, 34);
     }
+
+
+
+#Doner-Kebab-Formatting .img {
+    margin-left: 55px;
+    height: 500px;
+    width: 500px;
+}
+
+
+/* Normal Text used for Ingredients */
 
 .Normal-Text {
     font-size: 18pt;
@@ -94,7 +109,6 @@ img{
     transition: background-color 0.3s;
 }
 
-
 .Button:hover {
     background-color: rgb(230, 40, 40); 
 }
@@ -104,7 +118,6 @@ img{
     text-align: center;
     float: initial;
 }
-
 
 .Original-Source {
     text-align: center;
@@ -123,5 +136,6 @@ img{
     border: 1px;
     padding: 5px; 
     margin: 15px;
-    border-color: rgb(163, 34, 34); 
+    border-color: rgb(163, 34, 34);
+    
 }
